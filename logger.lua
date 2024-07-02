@@ -5,4 +5,4 @@ Event.OnServerEvent:Connect(function(p, ...)
     for i, msg in pairs(args) do
       print(msg)
     end
-end
+end)

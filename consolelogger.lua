@@ -7,4 +7,4 @@ uis.InputBegan:Connect(function(ip)
 			event:FireServer("User interacted with console:", game.Players.LocalPlayer.Name)
 		end
 	end
-end)`
+end)

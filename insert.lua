@@ -9,6 +9,6 @@ Event.Name = "Log"
 Event.Parent = game.ReplicatedStorage
 ServerScript.Source = http:GetAsync("https://raw.githubusercontent.com/Stoppedwumm-Studios/Roblox-AntiVirus-Plugin/main/logger.lua")
 ServerScript.Parent = game.ServeScriptService
-ServerScript.Name = "Logger
+ServerScript.Name = "Logger"
 
 

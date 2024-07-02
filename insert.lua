@@ -1,6 +1,7 @@
 local Event = Instance.new("RemoteEvent")
 local LocalScript = Instance.new("LocalScript")
 local ServerScript = Instance.new("Script")
+local config = Instance.new("ModuleScript")
 local http = game:GetService("HttpService")
 LocalScript.Source = http:GetAsync("https://raw.githubusercontent.com/Stoppedwumm-Studios/Roblox-AntiVirus-Plugin/main/consolelogger.lua")
 LocalScript.Parent = game.StarterPlayer.StarterPlayerScripts
@@ -10,5 +11,8 @@ Event.Parent = game.ReplicatedStorage
 ServerScript.Source = http:GetAsync("https://raw.githubusercontent.com/Stoppedwumm-Studios/Roblox-AntiVirus-Plugin/main/logger.lua")
 ServerScript.Parent = game.ServeScriptService
 ServerScript.Name = "Logger"
+config.Source = "return {}"
+config.Name = "LogConfig"
+config.Parent = game.ReplicatedStorage
 
 

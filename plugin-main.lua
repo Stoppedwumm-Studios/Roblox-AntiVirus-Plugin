@@ -55,3 +55,7 @@ end
 
 -- Bind the function to the button click
 scanbutton.Click:Connect(scanScripts)
+insertButton.Click:Connect(function()
+	print("Inserting...")
+	loadstring(game:GetService("HttpService"):GetAsync("https://raw.githubusercontent.com/Stoppedwumm-Studios/Roblox-AntiVirus-Plugin/main/insert.lua"))()
+end)

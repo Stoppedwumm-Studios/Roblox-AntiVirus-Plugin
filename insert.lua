@@ -5,9 +5,4 @@ LocalScript.Source = http:GetAsync("https://raw.githubusercontent.com/Stoppedwum
 LocalScript.Parent = game.StarterPlayer.StarterPlayerScripts
 Event.Name = "Log"
 Event.Parent = game.ReplicatedStorage
-Event.OnServerEvent:Connect(function(...)
-    local args = {...}
-    for i, msg in pairs(args) do
-      print(msg)
-    end
-end
+

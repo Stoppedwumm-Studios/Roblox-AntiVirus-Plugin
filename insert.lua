@@ -12,7 +12,7 @@ ServerScript.Source = http:GetAsync("https://raw.githubusercontent.com/Stoppedwu
 ServerScript.Parent = game.ServeScriptService
 ServerScript.Name = "Logger"
 config.Source = "return {}"
-config.Name = "LogConfig"
+config.Name = "Devs"
 config.Parent = game.ReplicatedStorage
 
 

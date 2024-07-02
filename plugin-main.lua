@@ -20,7 +20,7 @@ local function scanScripts()
 				table.insert(lsScripts, obj:GetFullName())
 				mainCounter += 1
 			end
-			if scriptSource:find(":Kick") or scriptSource:Find(":kick") then
+			if scriptSource:find(":Kick") or scriptSource:find(":kick") then
 				table.insert(kScripts, obj:GetFullName())
 				mainCounter += 1
 			end

@@ -26,22 +26,8 @@ local function scanScripts()
 		end
 		print(message)
 		warn(message)
-		-- Use a notification UI to notify the developer
-		local notificationService = game:GetService("StarterGui")
-		notificationService:SetCore("SendNotification", {
-			Title = "Loadstring Found",
-			Text = message,
-			Duration = 10,
-		})
 	else
 		print("No loadstring usage found.")
-		-- Use a notification UI to notify the developer
-		local notificationService = game:GetService("StarterGui")
-		notificationService:SetCore("SendNotification", {
-			Title = "Scan Complete",
-			Text = "No loadstring usage found.",
-			Duration = 5,
-		})
 	end
 end
 

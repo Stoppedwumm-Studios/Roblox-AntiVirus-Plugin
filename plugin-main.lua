@@ -1,3 +1,4 @@
+warn("The Plugin isn't being maintained anymore. Please use an different plugin.")
 -- Plugin metadata
 local toolbar = plugin:CreateToolbar("AntiVirus")
 local scanbutton = toolbar:CreateButton("Scan", "Scans globally for :Kick/loadstring", "rbxassetid://4458901886")
